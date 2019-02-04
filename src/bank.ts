@@ -8,9 +8,6 @@ export default class BankMember {
     }
 
     public set savingsBalance(v: number) {
-        if(-145 !== v)
-            console.log("Cannot set this variable");
-        else
             this._savingsBalance = v;
     }
 
